@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Raleway', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -57,10 +58,11 @@ table {
 	justify-content: center;
 	width: 100%;
 	margin: 0 auto;
+	margin-top: -35px;
 }
 
 .main-logo {
-	height: 175px;
+	height: 300px;
 	width: 100%;
 }
 
@@ -74,9 +76,9 @@ table {
 }
 
 .main-sections {
-	height: 400px;
+	height: 300px;
 	width: 35%;
-	margin-top: 5px;
+	margin-top: -20px;
 	padding: 5px;
 	text-align: center;
 /*	background: tomato;*/
@@ -90,23 +92,34 @@ table {
 }
 
 footer {
+	margin-top: 60px;
 	text-align: center;
+	padding-top: 10px;
 }
 
 p {
 	display: inline;
 }
 
-a {
+footer{
 	text-decoration: none;
-	margin: 10px;
-	padding: 10px;
+	margin: 20px 10px;
+	padding-top: 20px 10px;
 }
 /*Imgs*/
 
 .section-image {
-	width: 100%;
-	height: 350px
+	width: 250px;
+	height: 200px;
 }
 /*Links*/
 
+.main-sections a {
+	text-decoration: none;
+}
+
+footer a {
+	padding: 10px 10px;
+	margin: 10px 10px;
+	text-decoration: none;
+}
